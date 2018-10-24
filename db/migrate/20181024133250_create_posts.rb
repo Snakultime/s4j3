@@ -7,3 +7,6 @@ class CreatePosts < ActiveRecord::Migration[5.2]
     end
   end
 end
+
+#Créer une table pour les articles avec les titres en String et le contenu en
+#Text afin de laisser un plus grand nombre de caractères

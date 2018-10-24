@@ -1,0 +1,2 @@
+class AddLikeToUserandPost < ApplicationRecord
+end

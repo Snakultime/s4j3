@@ -8,3 +8,5 @@ class CreateUsers < ActiveRecord::Migration[5.2]
     end
   end
 end
+
+# Créer une table d'utilisateurs avec comme colonnes Prénom, Nom et email en String

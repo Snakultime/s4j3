@@ -7,3 +7,5 @@ class CreateAddCommentToUserAndPosts < ActiveRecord::Migration[5.2]
     end
   end
 end
+
+#Créer une table pour intégrer des commentaires à un utilisateur et un article

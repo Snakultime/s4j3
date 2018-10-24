@@ -6,3 +6,5 @@ class CreateAddposttocategories < ActiveRecord::Migration[5.2]
     end
   end
 end
+
+#Créer une table pour intégrer des articles à une catégorie
