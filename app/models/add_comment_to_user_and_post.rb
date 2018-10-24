@@ -1,0 +1,2 @@
+class AddCommentToUserAndPost < ApplicationRecord
+end
