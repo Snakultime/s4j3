@@ -1,5 +1,6 @@
 # La seed sert à répéter une commande du nombre de fois déterminé par l'utilisateur
-#
+# Il faut faire les boucles une par une pour que cela fonctionne bien.
+# Ensuite vous aurez un travail qui m'a prit 10h juste pour 30 sec de tableaux inutiles
 
 require 'faker'
 # Sert à ajouter 10 utilisateurs avec des noms au hasard

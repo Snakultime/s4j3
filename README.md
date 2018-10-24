@@ -1,24 +1,43 @@
-# README
+#Hello tu es sur le repository qui héberge mon application rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##Fait par Axel // @Axel
 
-Things you may want to cover:
+##Versions Ruby et Rails
+Ruby version 2.5.1
+Rails version 5.2.1
 
-* Ruby version
+##Fonctionnement général:
+L'application permet de générer le fonctionement d'un Blog. Elle permet aux utilisateurs de créer des posts, de les commenter et de les liker
 
-* System dependencies
+###Bases de données:
+users :
+Attributs : first_name (string), last_name(string), email(string)
 
-* Configuration
+Foreign key : aucune
+Contient : 10 users générés par la gem Faker
 
-* Database creation
+posts :
+Attibuts : title (string), content (text)
 
-* Database initialization
+Foreign keys: user_id (Integer), category_id (Integer)
+contient : 10 posts générés par la gem Faker
 
-* How to run the test suite
+categories :
+Attributs : name (string)
 
-* Services (job queues, cache servers, search engines, etc.)
+Foreign_keys : aucune
+contient : 5 catégories générées par la gem Faker
 
-* Deployment instructions
+comments :
+Attributs: content (string)
 
-* ...
+Foreign keys : post_id (Integer), user_id (Integer)
+contient : 15 comments générés par la gem Faker
+
+likes :
+Attribut: aucun
+
+Foreign keys : post_id (Integer), user_id (Integer)
+contient : 15 comments générés par la gem Faker
+
+A toi de jouer pour la correction, si t'as vraiment la motiv...
