@@ -1,15 +1,15 @@
-#Hello tu es sur le repository qui héberge mon application rails.
+# Hello tu es sur le repository qui héberge mon application rails.
 
-##Fait par Axel // @Axel
+## Fait par Axel // @Axel
 
-##Versions Ruby et Rails
+## Versions Ruby et Rails
 Ruby version 2.5.1
 Rails version 5.2.1
 
-##Fonctionnement général:
+## Fonctionnement général:
 L'application permet de générer le fonctionement d'un Blog. Elle permet aux utilisateurs de créer des posts, de les commenter et de les liker
 
-###Bases de données:
+### Bases de données:
 users :
 Attributs : first_name (string), last_name(string), email(string)
 
@@ -40,4 +40,4 @@ Attribut: aucun
 Foreign keys : post_id (Integer), user_id (Integer)
 contient : 15 comments générés par la gem Faker
 
-A toi de jouer pour la correction, si t'as vraiment la motiv...
+## A toi de jouer pour la correction, si t'as vraiment la motiv...
